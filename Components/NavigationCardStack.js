@@ -41,8 +41,8 @@ const NavigationTransitioner = require('../NavigationTransitioner');
 const React = require('react');
 const StyleSheet = require('react-native').StyleSheet;
 const View = require('react-native').View;
+const PropTypes = require('prop-types');
 
-const { PropTypes } = React;
 const { Directions } = NavigationCardStackPanResponder;
 
 import type {

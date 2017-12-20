@@ -41,6 +41,7 @@ const NavigationPointerEventsContainer = require('./NavigationPointerEventsConta
 const NavigationPropTypes = require('../NavigationPropTypes');
 const React = require('react');
 const StyleSheet = require('react-native').StyleSheet;
+const PropTypes = require('prop-types');
 
 import type  {
   NavigationPanPanHandlers,
@@ -56,8 +57,6 @@ type Props = NavigationSceneRendererProps & {
   renderScene: NavigationSceneRenderer,
   style: any,
 };
-
-const { PropTypes } = React;
 
 /**
  * Component that renders the scene as card for the <NavigationCardStack />.

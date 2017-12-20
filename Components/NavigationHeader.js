@@ -39,6 +39,7 @@ const NavigationPropTypes = require('../NavigationPropTypes');
 const React = require('react');
 const ReactNative = require('react-native');
 const TVEventHandler = require('react-native').TVEventHandler;
+const PropTypes = require('prop-types');
 
 const {
   Animated,
@@ -79,7 +80,6 @@ type SubViewName = 'left' | 'title' | 'right';
 
 const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
-const { PropTypes } = React;
 
 class NavigationHeader extends React.PureComponent<DefaultProps, Props, any> {
   props: Props;
