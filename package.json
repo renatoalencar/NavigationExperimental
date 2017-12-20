@@ -2,5 +2,12 @@
   "name": "navigation-experimental",
   "version": "0.0.1",
   "main": "NavigationExperimental.js",
-  "dependencies": {}
+  "dependencies": {
+    "fbjs": "^0.8.16",
+    "jest": "^22.0.3",
+    "prop-types": "^15.6.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
